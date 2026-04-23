@@ -53,7 +53,7 @@ Um dos destaques deste projeto é o uso do [MANIFESTO_ETL_QUALIDADE.md](./MANIFE
 ## 📁 Estrutura de Arquivos
 ```text
 ├── electronics_sales_raw.csv      # Dados brutos
-├── electronics_sales_cleaned.csv  # Dados após ETL (Camada Silver)
+├── electronics_sales_silver.csv  # Dados após ETL (Camada Silver)
 ├── etl_vendas.ipynb               # Pipeline de limpeza e transformação
 ├── modelagem_star_schema.ipynb    # Implementação do modelo dimensional
 ├── modelagem_vendas.sql           # Script SQL para criação do Warehouse
